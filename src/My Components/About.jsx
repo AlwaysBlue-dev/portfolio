@@ -54,7 +54,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   className="social-icon"
                 >
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </Tooltip>
               <Tooltip title="Abdullah Baig">

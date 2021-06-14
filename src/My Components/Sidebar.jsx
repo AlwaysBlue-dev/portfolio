@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import images from "../profile pic/profile.png";
 
 const Sidebar = () => {
   return (
@@ -15,8 +16,8 @@ const Sidebar = () => {
             <span className="d-none d-lg-block">
               <img
                 className="img-fluid img-profile rounded-circle mx-auto mb-2"
-                src="profile.png"
-                alt="profie pic"
+                src={images}
+                alt="profile pic"
               />
             </span>
           </NavLink>
